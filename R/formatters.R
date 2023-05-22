@@ -7,5 +7,6 @@
 #' @export
 #' @importFrom scales dollar
 euro <- function(x){
-  dollar(x, prefix = "€")
+  dollar(x,
+         prefix = "€")
 }
